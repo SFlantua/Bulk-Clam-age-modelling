@@ -1,0 +1,106 @@
+Calibrated age ranges at 95% confidence intervals
+
+
+Depth:  1020 
+yrmin	yrmax	probability
+22315 	23420 	95 	
+
+
+Depth:  1335 
+yrmin	yrmax	probability
+22648 	23613 	95 	
+
+
+Depth:  1514 
+yrmin	yrmax	probability
+27405 	27995 	95 	
+
+
+Depth:  1565 
+yrmin	yrmax	probability
+16145 	30255 	95 	
+
+
+Depth:  1572 
+yrmin	yrmax	probability
+27746 	28544 	95 	
+
+
+Depth:  1622 
+yrmin	yrmax	probability
+26725 	29922 	95 	
+
+
+Depth:  1709 
+yrmin	yrmax	probability
+27623 	28363 	95 	
+
+
+Depth:  1770 
+yrmin	yrmax	probability
+35652 	37901 	95 	
+
+
+Depth:  1837 
+yrmin	yrmax	probability
+34547 	36324 	95 	
+
+
+Depth:  2165 
+yrmin	yrmax	probability
+35044 	37355 	95 	
+
+
+Depth:  2278 
+yrmin	yrmax	probability
+39788 	41899 	95 	
+
+
+Depth:  3375 
+yrmin	yrmax	probability
+40613 	51587 	95 	
+
+
+Depth:  4030 
+yrmin	yrmax	probability
+45209 	55791 	95 	
+
+
+Depth:  4720 
+yrmin	yrmax	probability
+54905 	74895 	95 	
+
+
+Depth:  5115 
+yrmin	yrmax	probability
+57089 	75511 	95 	
+
+
+Depth:  5625 
+yrmin	yrmax	probability
+56153 	90647 	95 	
+
+
+Depth:  6175 
+yrmin	yrmax	probability
+69077 	86323 	95 	
+
+
+Depth:  7210 
+yrmin	yrmax	probability
+85241 	98959 	95 	
+
+
+Depth:  7855 
+yrmin	yrmax	probability
+85261 	110739 	95 	
+
+
+Depth:  8510 
+yrmin	yrmax	probability
+112481 	159519 	95 	
+
+
+Depth:  9020 
+yrmin	yrmax	probability
+124789 	153011 	95 	

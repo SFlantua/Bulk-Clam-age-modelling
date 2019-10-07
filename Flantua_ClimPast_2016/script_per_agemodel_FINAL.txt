@@ -1,0 +1,998 @@
+Agemodel.stars("0292_CLCN", cc=3)
+# Run 8 Estimated top age not included. Dangerous upward extrapolation.
+# Run 9 Estimated top age by authors included. 
+
+Agemodel.stars("0308_CCAV", cc=3)
+# Only Run 8. No smooth spline age model due to lack of dates.
+
+Agemodel.stars("0309_CTY1", cc=3)
+# Run 8 Estimated top date not included. 
+# Run 9 Estimated top date included. Surface=recent.
+
+Agemodel.stars("0310_CTY2", cc=3, smooth=0.2) 
+# Run 8 Estimated top age not included.
+# Run 9 Estimated top age from authors included. 
+# Run 10 Smoothness adjusted to 0.2 to improve fit.
+
+Agemodel.stars("0311_CTPM", cc=3, smooth=0.1) 
+# Run 8 Estimated top date not included. 
+# Run 9 Estimated top date included. Surface=recent.Smoothing at default 0.3. 
+# Run 10 Smoothing level adjusted to 0.1 to fit better the ages.
+
+Agemodel.stars("0312_UNDV", cc=3)
+# Run 8 Estimated top date not included. Future ages at top.
+# Run 9 Estimated top date included. Surface=recent.
+
+Agemodel.stars("0333_LKAT", cc=3, smooth=0.22)
+# Run 8 Estimated top date not included. Future ages at top.
+# Run 9 Estimated top age included. Still future ages at top. Smoothness at default 0.3
+# Run 10 Smoothness adjusted to 0.22 to avoid age reversal at top. Estimated top age adjusted to be consistent with year of publication of paper.
+
+Agemodel.stars("0336_BLVA", cc=1, hiatus=c(136), outliers=c(12)) 
+# Run 8 Estimated top age not included. Future ages at top. Outlier at date # 11
+# Run 9 Estimated top age included. Outlier at date # 12
+# Note: Seems like very fast accumulation in lower part. Authors compare two cores with similar patters of confused 14C of older ages. 
+# Comparing stratigraphy with pollen changes did not show any clear reason for this, although they state that extremely rapid deposition is possible. 
+# Authors suggest that the dates overlap because they are close to, or at, the effective limit of radiocarbon dating. 
+
+Agemodel.stars("0339_LCHA", cc=1, outliers=c(14,15), smooth=0.275)
+# Run 8 Estimated top age not included. Future ages at top. Outlier at date # 13 and 14
+# Run 9 Estimated top age included. Outlier at date # 14 and # 15. Still future ages at top. Smoothness at default 0.3
+# Run 10 Smoothness adjusted to 0.275 to avoid age reversal and future ages at top.
+# Note: Dangerous extrapolation in lowest section. Could be unreliable dates.
+
+Agemodel.stars("0344_KHKU", cc=3)
+# Only Run 8
+
+Agemodel.stars("0347_LYAG", cc=3, outliers=c(4), smooth=0.15) 
+# Run 8 Estimated top age not included. Future ages upward due to extrapolation.
+# Run 9 Estimated age at 13 cm of 4 yr BP included (estimated by authors) but still future ages at top.
+# Run 10 Estimated top age included: Surface=coring year. Smoothness adjusted to 0.15 to provide better fit.
+
+Agemodel.stars("0348_CHAL", cc=1, smooth=0.15)
+# Run 8 Smoothness of smooth spline at default 0.3
+# Run 9 Smoothness adjusted to 0.15 to improve fit to dates.
+
+Agemodel.stars("0349_LSAR", cc=1, smooth=0.1)
+# Run 8 Estimated top age not included. Future ages upward due to extrapolation.
+# Run 9 Estimated age at 10 cm of 350 cal BP included (estimated by authors). Smoothness at default 0.3
+# Run 10  Smoothness adjusted to 0.1 to fit a bit better the ages.
+
+Agemodel.stars("0350_S931", cc=3) 
+# Only Run 8
+# Note: Dangerous extrapolation downward. Unreliable ages.
+
+Agemodel.stars("0361_MBL2", cc=3, outlier=c(4)) 
+# Run 8 No outliers included. Linear interpolation with age reversal.
+# Run 9 Possible outlier for date #3 
+# Run 10 Possible outlier for date #4 
+
+Agemodel.stars("0378_SAJ2", cc=3)
+# Only Run 8
+# Note: Dangerous extrapolation upward. Unreliable ages.
+
+Agemodel.stars("0381_ICE2", cc=3, outliers=c(5,6)) 
+# Run 8 Outliers for date # 5 and 6 (another option is outlier 7 and 8)
+# Run 9 Time-stratigraphic markers for the top section included. Future ages upward.
+# Run 10 Estimated top age included. Put at 50cm= -35yrBP to avoid future ages and age reversal.
+
+Agemodel.stars("0383_UYUN", cc=3, outliers=c(4,5,6,7,8))
+# Only Run 8
+
+Agemodel.stars("0394_TQMA", cc=3, postbomb=5)
+# Run 8 Estimated top age not included. Future ages at top section due to extrapolation.
+# Run 9 Estimated top age included. Surface= -35 cal BP.
+
+Agemodel.stars("0400_T3B2", cc=3, smooth=0.6, outliers=c(3,7,13,14,16,17,18,20,23,27,29,33,34,35,36))
+# Run 8 Only 14C dates used.
+# Run 9 Additional tie points older section added. Numerous age reversals occurring.
+# Run 10: All depth below 93.77 m removed and smoothness factor adjusted. No outliers implemented. 
+# Run 11: Proposed outliers implemented.
+
+Agemodel.stars("0401_TPC1", cc=3, outliers=c(5,14,16,19) 
+# Run 8 All dates used as stated by authors. Age reversals occurring in linear interpolation.
+# Run 9 Proposed outliers for date #5,14,16,19 to avoid age reversals in linear interpolation.
+
+Agemodel.stars("0559_JUNCO", cc=1, postbomb=3, outliers=c(13))
+# Run 8 All dates used. Linear interpolation: Age reversal.
+# Run 9 Proposed outlier for date # 13
+
+
+Agemodel.stars("0736_CHALNB", cc=3, outliers=c(6), smooth=0.2) 
+# Run 8 Estimated top age not included. Outlier date #5. Future ages at top due to extrapolation.
+# Run 9 Estimated top age included. Outlier date #6. Smoothness at default value 0.3
+# Run 10 Smoothness adjusted to 0.1 to better fit the dates.
+
+Agemodel.stars("0832_AGUBL1", cc=1, outliers=c(4,8), smooth=0.2)
+# Run 8 Estimated top age not included. Outlier date #3 and 7. Future ages at top due to extrapolation.
+# Run 9 Estimated top age included. Outlier date #4 and 8. Smoothness at default 0.3
+# Run 10 Smoothness adjusted to 0.2 to better fin dates.
+
+Agemodel.stars("0833_AGUBL2", cc=1) 
+# Run 8 Estimated top not included. Dangerous extrapolation upward. 
+# Run 9 Estimated top included.
+
+Agemodel.stars("0834_AGUBL3", cc=1s, smooth=0.31) 
+# Run 8 Estimated top not included. Dangerous extrapolation to both sides especially upward. 
+# Run 9 Estimated top included. Age reversal and future ages at top section.
+# Run 10 Tryouts to avoid age reversal at top in smooth spline, however, not possible while trying to avoid future ages. Linear interpolation provides better ages.
+
+Agemodel.stars("0835_ALSAC", cc=1, outliers=c(4)) 
+# Run 8 Estimated top not included. Dangerous extrapolation to both sides. Outlier defined at date #3. 
+# Run 9 Estimated top included. Age reversal and future ages at top section. Outlier defined at date #4.
+
+Agemodel.stars("0837_ANDBB", cc=1)
+# Only Run 8
+# Note: Dangerous extrapolation upward. No estimated upper age available.
+
+Agemodel.stars("0839_CIENOST", cc=1, outliers=c(3,6), postbomb=2, smooth=0.23) 
+# Run 8 Estimated top not included. Dangerous extrapolation to both sides. Outlier defined at date #2 and 5. 
+# Run 9 Estimated top included. Surface=recent.  Smoothness adjusted to 0.1 (less stiff) to better fit dates and avoid future ages at top section of smooth spline. Linear interpolation has age reversal in top. 
+# Run 10 Estimated top age changed to 0cm = -30 cal BP and smoothness to 0.23 to avoid age reversals in linear interpolation and smooth spline model.
+
+Agemodel.stars("0840_CHISPAT", cc=1, postbomb=2)
+# Run 9 Estimated top age not included. Future ages at top section. 
+# Run 10 Estimated top age included. Surface= -50  cal BP. 
+
+Agemodel.stars("0841_HONDA", cc=3, outliers=c(4)) 
+# Run 8: Estimated top age not included. Future ages at top section. Outlier at date # 3
+# Run 9: Estimated top age included. Surface=-50 cal BP (from paper). Outlier at date #4
+# Note: There is a hiatus at 145-150cm, but with only 1 control point at 155cm lower section not informative in chronology.
+
+Agemodel.stars("0849_CAHUN2", cc=1)
+# Only Run 8
+
+Agemodel.stars("0850_CAQUET5", cc=1)
+# Only Run 8
+# Note: Extrapolation to both sides. Unreliable ages in top and lower section.
+
+Agemodel.stars("0851_CARBOSQ", cc=1, outliers=c(1,3,4,6,7))
+# Only Run 8. Outliers used as defined by authors (Unclear how they defined outliers)
+
+Agemodel.stars("0852_CARLAG", cc=1, outlier=c(6), smooth=0.28)
+# Run 8 Outlier used as defined by authors. Smoothness at default 0.3.
+# Run 9 Smoothness adjusted to 0.28 to fit better the dates. More flexible smoothness causes age reversal in smooth spline.
+
+Agemodel.stars("0855_CHENV", cc=1, postbomb=3, smooth=0.16)
+# Run 8 Estimated top age not included. Extrapolation to future ages, unrealistic.
+# Run 9 Estimated top age included. Surface=-40 cal BP (from paper). Smoothness at default 0.3
+# Run 10 Smoothness adjusted to 0.16 (less stiff) to better fit ages. Lower value causes age reversals.
+
+Agemodel.stars("0859_CASTCOR", cc=1, postbomb=3)
+# Run 8 Estimated top ages not included. Extrapolation to future ages, unrealistic.
+# Run 9 Estimated top age included. Surface=recent. Only linear interpolation as smooth spline needs >4 dates
+
+Agemodel.stars("0860_CIGAR", cc=1) 
+# Run 8 Estimated top ages not included. Extrapolation to future ages, unrealistic.
+# Run 9 Estimated top age included. Surface=recent. Only linear interpolation as smooth spline needs >4 dates
+
+Agemodel.stars("0863_CIENVIS", cc=1) 
+# Run 8 Estimated top age not included. Extrapolation to future ages, unrealistic.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("0871_ABRA2B1", cc=1) 
+# Only Run 8
+# Note: Very dangerous extrapolation to both ends, unreliable ages. No estimated top age available. 
+
+Agemodel.stars("0873_BILLAR1", cc=1, outliers=c(7,8,9)) 
+# Only Run 8
+# Note: Dangerous extrapolation at top section. Unreliable date.
+
+Agemodel.stars("0874_BILLAR2", cc=1, outliers=c(6,8))
+# Only Run 8
+
+Agemodel.stars("0875_BOSQ1", cc=1) 
+# Run 8 Slump implemented between 72-90cm (slump=c(72,90)). However, does not make much difference for age model.
+# Run 9 No slump used. Estimated top age not included. 
+# Run 10 Estimated top age included.
+
+Agemodel.stars("0877_CAIMTO", cc=1, postbomb=2, smooth=0.1) 
+# Run 8 Hiatus used at 500 cm. No smooth spline model as there are not enough dates in the lower section.
+# Run 9 Hiatus removed as it doesn't make a lot of difference. Smoothness at default 0.3.
+# Run 10 Smoothness at 0.1 to improve fit of ages.
+
+Agemodel.stars("0878_CMLEON", cc=1)
+# Only Run 8. Linear interpolation: Age reversal and dangerous extrapolation to both sides. Either date 1 or 2 can be outliers.
+# Note: Dangerous extrapolations. Unreliable dates and age model.
+
+Agemodel.stars("0879_GOBERN", cc=1)  
+# Run 8 Estimated top age not included. Extrapolation to future ages, unrealistic. 
+# Run 9 Estimated top age included. Surface=recent. Dangerous extrapolation downward. Could be unreliable date.
+
+Agemodel.stars("0881_PINAL", cc=1, smooth=0.39)
+# Run 8: Smoothness at default 0.3. Age reversal in de top.
+# Run 9: Adapted smoothness to 0.39 to avoid age reversal at the top.
+
+Agemodel.stars("0892_FUQ2", cc=1, outliers=c(3,8)) 
+# Run 9 Estimated top age not included. Extrapolation to future ages, unrealistic.
+# Run 10 Estimated top and bottom age included.
+# Note: Dangerous extrapolation downwards. unreliable ages.
+
+Agemodel.stars("0893_FUQ3", cc=1)
+# Run 9 Estimated top age not included. Dangerous extrapolation to both sides.
+# Run 10 Estimated top age included. Surface=recent.
+# Run 11 (optional) Estimated lowest age included as defined by authors. 
+# Note: Dangerous extrapolation downwards. unreliable ages.
+
+Agemodel.stars("0895_FUQ7", cc=1, smooth=0.33) 
+# Run 8 Smoothness at default 0.3. Slight age reversal in smooth spline model. 
+# Run 9 Smoothness adjusted to 0.33 to avoid age reversal.
+# Note: Very dangerous extrapolation downwards. Ages unreliable at bottom. 
+
+Agemodel.stars("0896_FUQ7C", cc=1)
+# Run 8 Smoothness at default 0.3. Slight age reversal in smooth spline model. 
+# Run 9 Smoothness adjusted to 0.33 to avoid age reversal.
+# Note: Very dangerous extrapolation downwards. Ages unreliable at bottom. 
+
+Agemodel.stars("0899_GENAG", cc=1, outliers=c(5),hiatus=c(200,342))
+# Run 9: outlier proposed for date #5. Alternative model to Run 8. Still problematic model. No smooth spline possible.
+# Note: Too much extrapolation downwards - unreliable. Also many slumps, and C14 ages close to background. Lots of issues with this model.  Unreliable age model.
+
+Agemodel.stars("0901_GUAND", cc=1)
+# Run 9 Estimated top age not included. Dangerous extrapolation to both sides.
+# Run 10 Estimated top age included. Surface=recent. Extrapolation downward - unreliable.
+
+Agemodel.stars("0907_JOTAR", cc=1, postbomb=2, outliers=c(6), smooth=0.32) 
+# Run 8 Hiatus included at 410. (hiatus=c(410). No smooth spline due to lack of dates.
+# Run 9 Hiatus removed. Linear interpolation is very similar with or without hiatus. Date # 6 possible outlier?  Age reversal in smooth spline.
+# Run 10 Smoothness adjusted to 0.32 to avoid age reversal in middle section.
+
+Agemodel.stars("0908_CACHU", cc=1) 
+# Run 8 Estimated top age not included. Extreme extrapolation toward the top producing future ages. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent.
+# Note: Too much extrapolation downwards - unreliable at bottom. 
+
+Agemodel.stars("0910_CHOCHA1", cc=1, outlier=c(17)) 
+# Run 8 Estimated top age not included. Future age at top due to extrapolation. Unrealistic. Age reversal in linear interpolation.
+# Run 9 Estimated top age included. Surface=recent. Outlier date #17
+
+Agemodel.stars("0913_GUITAR", cc=1, slump=c(348,374)) 
+# Run 9 Hiatus identified by authors but here we replace the hiatus by a slump. With hiatus (348-374cm) no age model can be created. linear interpol: extrapolation to future ages, unrealistic.
+# Run 10 Estimated top age from authors included: 28cm = 480 +/-10. 
+# Run 11 Slump replaced by hiatus. With estimated top age, models can be created. 
+
+Agemodel.stars("0914_LAGUN", cc=1, outliers=c(5), smooth=0.3)
+# Run 8 Estimated top age not included. Outlier at date #5. Extrapolation to future ages. Unrealistic. 
+# Run 9 Extra age added to top. Top age from paper ascribed to "Modern (delta 14C = 11+/-6 per mil)". Smoothness at default 0.3. Age reversal in top section.
+# Run 10 More flexible smoothness fits better the dates but adjusting smoothness does not solve future ages/age reversal in top section. 
+
+Agemodel.stars("0915_PRIMAV", cc=1, outliers=c(4)) 
+# Run 8 Hiatus included.
+# Run 9 Hiatus=730 removed. Hiatus does not solve anything, causes age reversal and avoids smooth spline (not enough dates below hiatus). 
+# Run 10 Extra age added as top age. Surface=recent.
+
+Agemodel.stars("0917_TETA2", cc=1, smooth=0.2) 
+# Run 9 Default smoothness of 0.3
+# Run 10 smoothness at = 0.2
+
+Agemodel.stars("0920_LBOBOS", cc=1) 
+# Run 9 Dangerous extrapolation upward and especially downward. Linear interpolation: too much extrapolation downward
+# Run 10 Extra age added as top age. Surface=recent.
+# Note: Dangerous extrapolation downward. Very high uncertainty.
+
+Agemodel.stars("0922_LCIEGA3", cc=1, smooth=0.1) 
+# Run 9 Dangerous extrapolation upward and downward.
+# Run 10 Extra age added as top age. Surface=recent. Smooth at default 0.3
+# Run 11 Smoothness adjusted to 0.1 to better fit ages.
+# Note: Dangerous downward extrapolation. High uncertainty. 
+
+Agemodel.stars("0923_AGUASUC", cc=1)
+# Only Run 8. 
+
+Agemodel.stars("0927_PEDPAL1", cc=1) 
+# Run 9 Estimated top age not included. Dangerous extrapolation upward. 
+# Run 10 Estimated top age included. Surface=recent. (No estimated top age from paper).
+# Note: Top section unreliable due to extreme extrapolation.
+
+Agemodel.stars("0929_PEDPAL3", cc=1)
+# Only Run 8
+
+Agemodel.stars("0930_PEDPAL5", cc=1)
+# Only Run 8
+
+Agemodel.stars("0933_ANGEL", cc=1, outlier=c(3), smooth=0.25) 
+# Run 9 All dates used. No outliers identified by authors. Age reversals ocurring.
+# Run 10 Third uppermost date possibly an outlier. Date #3 defined as outlier for smoother age model. Smoothness at default 0.3
+# Run 11 Smoothness adjusted to 0.25 for smoother model without age reversals.
+
+Agemodel.stars("0935_PIUSB", cc=1, smooth=0.2) 
+# Run 9 Smoothness at default 0.3. Extrapolation in bottom section. Unreliable dates. 
+# Run 10 Smoothness adjusted to 0.13 to better fit ages.
+
+Agemodel.stars("0936_SARDIN", cc=1)
+# Only Run 8
+
+Agemodel.stars("0937_SIETCAB", cc=1)
+# Only Run 8
+
+Agemodel.stars("0938_MARGAR", cc=1, outliers=c(4,7,12,13,32), smooth=0.6) 
+# Run 8 Only date # 4 as outlier.
+# Run 9 Additional outliers added.
+# Run 10 Stiffer spline to avoid reversal. Smoothness adjusted from 0.3 to 0.6.
+
+Agemodel.stars("0940_LLANO2", cc=1, outliers=c(12,13,25,26,27,29)) 
+# Run 8 Dates used as indicated by authors. No outliers included. Many age reversals.
+# Run 9 Additional outliers proposed by visual inspection. 
+# Run 10 Extrapolation top ages too young. Extra age added as top age. Surface=recent.
+
+Agemodel.stars("0941_LOMLIND", cc=1)
+# Only Run 8
+
+Agemodel.stars("0943_LAGOS", cc=1)
+# Run 9 Estimated top age not included. Future ages due to upward extrapolation. Unrealistic.
+# Run 10 Estimated top age included. Surface=recent.
+
+Agemodel.stars("0945_MANAC1", cc=1, outliers=c(2)) 
+# Run 8 There is a separate section between 60 and 90. included in Run 8. 
+# Run 9 Section between 60 and 90 excluded. Outlier proposed for second date.
+# Note: Dangerous extrapolation downward. Unreliable dates.
+
+Agemodel.stars("0946_MARIM1", cc=1) 
+# Run 8: Estimated top age not included. Dangerous extrapolation to both sides.
+# Run 9: Estimated top age included. Surface=recent.
+# Note: Dangerous interpolations in the top and bottom section. Unreliable dates.
+
+Agemodel.stars("0947_MARIM2", cc=1) 
+# Run 8 Estimated top age not included. Dangerous extrapolations upward and downward.
+# Run 9 Extra age added as top age. Surface=recent.
+# Note: Interpolations in the top and bottom section. Unreliable dates.
+
+Agemodel.stars("0949_MOZAMB", cc=1, outliers=c(2,3,4), smooth=0.2) 
+# Run 8: Estimated top age not included. Dangerous extrapolations upward.
+# Run 9: Extra age added as top age. Surface=recent. Agemodel.stars("0949_MOZAMB", cc=1, outliers=c(2,3,4)) 
+# Run 10:  Smoothness adjusted from 0.3 to 0.2
+
+Agemodel.stars("0951_ODP677", cc=1, smooth=0.1) 
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic. 
+# Run 9 Estimated top age included. Surface=recent. Smoothness at default 0.3
+# Run 10 Smoothness adjusted to 0.1 better fit the dates.
+
+Agemodel.stars("0952_OTONMAN", cc=1, outliers=c(2,4))
+# Only Run 8
+
+Agemodel.stars("0954_PMONIC1", cc=1, outliers=c(4))
+# Only Run 8
+# Note: Extrapolation in the top and bottom section. Unreliable dates.
+
+Agemodel.stars("0955_PVARGAS", cc=1, outliers=c(2))
+# Only Run 8
+
+Agemodel.stars("0958_PARVERD", cc=1, smooth=0.2) 
+# Hiatus at 300-350 cm not included as it does not make any difference.
+# Run 9 Estimated top age not included. Slightly too much extrapolation upwards.
+# Run 10 Extra age added as top age. Surface=recent. Smoothness at default 0.3
+# Run 11 Smoothness adjusted to 0.2
+
+Agemodel.stars("0959_PENNEGR", cc=1) 
+# Run 8 Estimated top age not included. Future ages at top section due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Future ages and age reversal at top. Smooth at default 0.3
+# Run 10 Adjusting smoothness of smooth spline does not solve future ages/age reversal at top. Linear interpolation provides more realistic ages.
+
+Agemodel.stars("0963_PALAC1", cc=1) 
+# Run 8 Estimated top age not included. Future ages at top section due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("0964_PALAC2", cc=1) 
+# Run 8 Estimated top age not included. Future ages at top section due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("0965_PATIA1", cc=1, outliers=c(8,9), smooth=0.1) 
+# Run 9 Estimated top age not included. Smoothness at default 0.3
+# Run 10 Extra age added as top age. Surface=recent. Smoothness adjusted to avoid future extrapolated ages at top.
+# Note: Potentially dangerous extrapolation at bottom section. 
+
+Agemodel.stars("0966_PATIA2", cc=1, outliers=c(6,8), smooth=0.2) 
+# Run 9 Estimated top age not included. Outliers at dates # 5 and 7. Future ages at top section due to extrapolation. Unrealistic.
+# Run 10 Estimated top age included. Outliers at dates # 6 and 8. Unrelialistic future age for top sample. Smoothness at default 0.3. 
+# Run 11 Smoothness adjusted to 0.2 to better fit ages and avoid top sample.
+
+Agemodel.stars("0967_PIAGUA", cc=1, hiatus=c(299,306) 
+# Run 8 Hiatus not included. 
+# Run 9 Hiatus included. No smooth spline possible.
+
+Agemodel.stars("0968_PITAL11", cc=1, outliers=c(6), smooth=0.5) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Extra age added as top age. Surface=recent. However age reversal in model.
+# Run 10 straighter spline.  Smoothness adjusted to 0.5.
+
+Agemodel.stars("0969_PITAL2", cc=1) 
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic. 
+# Run 9 Extra age added as top age. Surface=recent.
+# Note: Dangerous extrapolation downward. Unreliable.
+
+Agemodel.stars("0971_POTRER2", cc=1) 
+# There is an hiatus between 2800-7135 cal BP. No age model run with hiatus because top section not possible with hiatus.
+# Run 8 Smoothness at default 0.3
+# Run 9 Smoothness adjusted to 0.26. More flexible smoothness causes age reversals.
+
+Agemodel.stars("0973_PUENTL2", cc=1) 
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic. Linear interpolation with age reversal.
+# Run 9 Extra age added as top age. Surface=recent. Reversal in linear interpolation. Not clear which date could be potentially outlier. Smooth spline better results. 
+
+Agemodel.stars("0974_QBRAFR", cc=1)
+# Only Run 8
+
+Agemodel.stars("0975_QBRAMOR", cc=1, postbomb=3)
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Extra age added as top age. Surface=recent.
+
+Agemodel.stars("0976_QUILCH1", cc=1, smooth=0.2) 
+# Run 8 Hiatus not included. 
+# Run 9 hiatus included: hiatus=c(477,478). Smoothness at default 0.3
+# Run 10 Hiatus not included and a less stiff spline (0.25) used to better fit ages. More flexible smoothness causes age reversals.
+
+Agemodel.stars("0979_QUINCH1", cc=1) 
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Extra age added as top age. Surface=recent.
+# Note: Dangerous extrapolation downward. Unreliable ages.
+
+Agemodel.stars("0980_QUINCH2", cc=1) 
+# Run 8 Estimated top age not included. Dangerous extrapolation upward.
+# Run 9 Extra age added as top age. Surface=recent.
+
+Agemodel.stars("0981_QUINCH3", cc=1)
+# Only Run 8
+
+Agemodel.stars("0986_TIMBIO", cc=1, outliers=c(4,7), smooth=0.1)
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Extra age added as top age. Surface=recent. Smoothness at default 0.3
+# Run 10 Smoothness adjusted to 0.1 to accommodate better the dates.
+
+Agemodel.stars("0995_MARTIN", cc=1) 
+# Run 8 Estimated top age not included. There is an hiatus at 150 cm but not included as any age model fails.
+# Run 9 Extra age added as top age. Surface=recent. 
+
+Agemodel.stars("1001_SNEV7", cc=1) 
+# Only Run 8
+
+Agemodel.stars("1008_TOTUM", cc=1) 
+# Only Run 8
+# Note: Dangerous extrapolation downward. Unreliable ages.
+
+Agemodel.stars("1013_TPN21B", cc=1) 
+# Run 8 Estimated top age not included. Dangerous extrapolation to both sides with future ages at the top.
+# Run 9 Extra age added as top age. Surface=recent. 
+
+Agemodel.stars("1017_TPN36C", cc=1)
+# Only Run 8. No estimated top age available. 
+# Note: Dangerous extrapolation to both sides. Unreliable ages.
+
+Agemodel.stars("1027_TURBCAL", cc=1) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included.
+
+Agemodel.stars("1029_UBAQ", cc=1)
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included.
+# Note: Dangerous extrapolation downward. Uncertain ages.
+
+Agemodel.stars("1035_HERRER", cc=1)
+# Only Run 8
+
+Agemodel.stars("1037_LAGNIL8", cc=1)
+# Only Run 8
+# Note: Dangerous extrapolation especially downward. Unreliable ages.
+
+Agemodel.stars("1038_LAGNIL5", cc=1) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included.
+
+Agemodel.stars("1040_CARLOS", cc=1, outliers=c(2,4))
+# Only Run 8
+
+Agemodel.stars("1042_VILNUEVA2", cc=1)
+# Only Run 8
+# Note: Dangerous extrapolation upward. 
+
+Agemodel.stars("1131_ANANG", cc=1, outlier=c(4), smooth=0.25) 
+# Run 8 No outliers included
+# Run 9 Outlier date #4. Smoothness as default 0.3
+# Run 10 Less "stiff" smoothness to better fit ages. Smoothness at 0.25. More flexible smoothness causes age reversal.
+
+Agemodel.stars("1133_CAYAMB", cc=1)
+# Only Run 8
+# Note: Downcore extrapolation potentially unreliable ages.
+
+Agemodel.stars("1134_CERTOLD", cc=1, slump=c(5,30)) 
+# Run 8 Estimated top age not included. Additional derived ages by authors included. Exact age of slump at -37 cal yr BP due to known event. 
+# Run 9 Estimated top age included.
+
+Agemodel.stars("1135_CANGLAG", cc=1, smooth=0.08) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Smooth spline: Still Future ages at top. Smooth at default 0.3
+# Run 10 Smoothness adjusted to 0.08 (values possible from 0.2 to 0.05) to fit ages better and avoid future ages at top.
+
+Agemodel.stars("1136_CANGMIR", cc=1) 
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1139_TIRO", cc=1) 
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1141_G15II", cc=1, postbomb=4, outliers=c(2,4,5))
+# Run 8 Estimated top age not included. Outliers at date #1,3,4. Future ages due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface= -60 cal BP from authors. Outliers at date # 2,4,5. Slight age reversal at top. However Smoothness at default 0.3 provides best fit (adjusting smoothness causes higher age reversal or unrealistic future ages.
+# Note in descripion: For top samples, linear interpolation provides better ages.
+
+Agemodel.stars("1144_JUNC1", cc=1)
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1145_JUNC5", cc=1)
+# Only Run 8
+
+Agemodel.stars("1146_JUNC6", cc=1, outliers=c(4), smooth=0.34) 
+# Run 8 Age reversal at bottom.  
+# Run 9 Stiffer spline needed to avoid reversal at bottom.  Smoothness adjusted from 0.3 to 0.34.
+
+Agemodel.stars("1147_KUMPACK", cc=1, outliers=c(4))
+# Run 8 No outliers included.
+# Run 9 Outlier included at date #3.No estimated top age included. Future ages due to extrapolation. Unrealistic.
+# Run 10 Estimated top age included. Surface=recent. Outlier = #4  
+
+Agemodel.stars("1149_AYACH", cc=1) 
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1155_CHORRER", cc=1, outliers=c(9,10)) 
+# Run 8 Estimated top age not included. No outliers defined. 
+# Run 9: Estimated top age included. Outliers defined for dates # 9 and 10.
+
+Agemodel.stars("1157_CAMPAN", cc=3, outliers=c(4,5), slump=c(72,100)) 
+# Run 8 No outliers or slump included. 
+# Run 9 Outliers and slump included as stated by authors.
+# Note for in description: High uncertainty in this age model.
+
+Agemodel.stars("1158_PALLCA1", cc=1)
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent. 
+
+Agemodel.stars("1160_ZURITA", cc=3)
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent. 
+
+Agemodel.stars("1161_NATSAS", cc=1, smooth=0.1) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent. 
+# Run 10 Smoothness of spline adapted to cover dates better. Adapted from 0.3 to 0.1.
+
+Agemodel.stars("1162_SCECIL", cc=1)
+# Only Run 8.
+  
+Agemodel.stars("1163_SURUC", cc=1, outliers=c(3,5,6,7)) 
+# Run 8 No outliers included. Many age reversal.
+# Run 9 Authors recognize problems with dates (reverals, too old/young, etc) but difficult to say with certainty which dates are outlying. Proposed possible outliers for dates #3,5,6,7.
+# Note: Extrapolation downward quite unreliable hard to identify which dates are outlying.
+
+Agemodel.stars("1164_LIMON", cc=1, smooth=0.39) 
+# Run 8 Estimated top age not included. Future ages due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent. Age reversal in bottom section. Smoothness at default 0.3
+# Run 10 Smoothness adjusted to 0.39
+
+Agemodel.stars("1166_MAXUS1", cc=1, outliers=c(5))
+# Run 8 Estimated top age not included. Outlier at date # 4. Future ages due to extrapolation. Unrealistic.
+# Run 9 Estimated top age included. Surface=recent. Outliers becomes date #5.
+# Note: Careful with bottom section. Uncertain ages due to downward extrapolation.
+
+Agemodel.stars("1167_MAXUS4", cc=1) 
+# Only Run 8
+# Note: Extrapolation in lower section may cause unreliable ages.
+
+Agemodel.stars("1170_MULLUM", cc=1) 
+# Run 8 Estimated top age not included. Extreme extrapolation at top.
+# Run 9 Estimated top age included at 100cm (paper does not state clearly where the top is). Top age at 100cm causes upward extrapolation.
+# Run 10 Estimated top age included at 0cm. Both upper and lower part of age model very high uncertainty due to extrapolation.
+
+Agemodel.stars("1171_PECHO", cc=1) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1172_NATSAS", cc=1, smooth=0.1) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent. Smoothness at default 0.3
+# Run 10 Smoothness adjusted to 0.1 to cover more of the dates and avoid future ages at top.
+
+Agemodel.stars("1174_RABVAC", cc=1)
+# Only Run 8
+
+Agemodel.stars("1175_RABVACB", cc=1, outliers=c(3))
+# Run 8 Estimated top age not included. Outlier at date # 2
+# Run 9 Estimated top age included. Surface=recent. Outlier at date # 3
+
+Agemodel.stars("1176_GAUNG8", cc=1, postbomb=3, outliers=c(5,6))
+# Only Run 8
+
+Agemodel.stars("1178_JUANBO", cc=1)
+# Only Run 8
+# Note: Dangerous downward extrapolation, unreliable dates.
+
+Agemodel.stars("1181_TRESLAG", cc=1, postbomb=5, outliers=c(2), hiatus=c(105))
+# Run 8 Hiatus at c. 105 cm not included. Smooth spline model created.
+# Run 9 Hiatus at c. 105cm included. No smooth spline model possible.
+
+Agemodel.stars("1183_VALPEQ", cc=1) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent.
+
+
+Agemodel.stars("1184_YAGUAR", cc=1, outliers=c(6), smooth=0.4) 
+# Run 8 Default smoothness at 0.3
+# Run 9  Smoothness adjusted to 0.4 to avoid age reversal at middle section.
+
+Agemodel.stars("1211_QT2010", cc=3) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent.
+# Note: Dangerous extrapolation downward.
+
+Agemodel.stars("1247_ERUODA", cc=1, hiatus=c(173)) 
+# Run 8 Default smoothness at 0.3
+# Run 9  Smoothness adjusted to 0.5 to avoid age reversal. However, several lower dates are missed out and top age into future. Difficult to make an overal fitting age model.
+# Run 10 Hiatus included at 173cm. Smooth spline cannot be created.
+
+Agemodel.stars("1496_SORVAL", cc=3, outliers=c(3)) 
+# Run 8 Estimated top age not included. Too much extrapolation upward. Outlier= date #2
+# Run 9 Estimated top age included. Surface=recent. Outlier= date #3
+
+Agemodel.stars("1498_GENTRY", cc=3, smooth=0.4) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent. However, age reversal at top.
+# Run 9  Smoothness adjusted to 0.4 to avoid age reversal.
+
+Agemodel.stars("1502_LAGBAJ", cc=3)
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent.
+ 
+Agemodel.stars("1503_CHOCH", cc=3, smooth=0.4) 
+# Run 8 smoothness at default = 0.3
+# Run 9 Adapted smoothness spline at 0.4 to avoid age reversal
+
+Agemodel.stars("1504_LAGHUAT", cc=3, smooth=0.4)
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent. Smoothness at default 0.3.
+# Run 10 Less rigid smooth spline.  Smoothness adjusted to 0.4.
+
+Agemodel.stars("1505_JERON", cc=3, outliers=c(2))
+# Run 8 Estimated top age not included. Outlier = date #1
+# Run 9 Estimated top age included. Surface=recent. Outlier = date #2
+
+Agemodel.stars("1506_JUNIN", cc=3)
+# Only Run 8
+
+Agemodel.stars("1507_COMPUER", cc=3, hiatus=c(175))
+# Run 8 Estimated top age not included. Future ages at top.
+# Run 9 Estimated top age included. Surface=recent. No age model with smooth spline possible. At least 4 dates are needed in the lower section (only 2).
+
+Agemodel.stars("1508_MILLOC", cc=3)
+# Run 8 Estimated top age not included. Heavy extrapolation toward the top.
+# Run 9 Estimated top age included. Surface=recent. Top section still unreliable due to lack of dates.
+
+Agemodel.stars("1510_POMAC", cc=3)
+# Run 8 Estimated top age not included. Future ages at top.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1511_SALINS", cc=3, smooth=0.2) 
+# Run 8 smoothness at default = 0.3
+# Run 9 Adapted smoothness spline at 0.2 to fit ages better and avoid future ages at top. However, slight age reversal in top section. Difficult to have perfectly fitting smooth spline.
+
+Agemodel.stars("1512_TUCTUA", cc=3)
+# Only Run 8. 
+# Note: Extrapolation downwards looks dangerous, although the core has accumulated straight above it.
+
+Agemodel.stars("1513_CONSUE1", cc=3, outliers=c(2,4,7,11,15,20), smooth=0.2) 
+# Joined chronology from Consuelo Core 1 and 2. 
+# Run 8 uses outliers for date # 5 and 21 as defined by authors.
+# Run 9 Proposed potential outliers=c(2,4,7,11,15,20) based on visual inspection of age model. No future ages at top.
+# Run 10  Smoothness adjusted from 0.3 (default) to 0.2 (more rigid) to remove upper reversals at top. However, top section with future ages. No estimated top age known.
+
+Agemodel.stars("1514_CONSUE2", cc=3) 
+# Run 8 Estimated top age not included. Future ages at top.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1516_PACUCH", cc=3, outliers=c(2,7,10,15,16)) 
+# Run 8 Outliers at date # 1, 6, 14, 15
+# Run 9 includes additional outlier at date #9. Future ages at top section.
+# Run 10 Estimated top age included. Surface=recent. Outliers now at date # 2,7,10,15,16.
+
+Agemodel.stars("1517_SAUCE", cc=3, outliers=c(5,6))
+# Run 8 Outliers at date # 4 and 5. No estimated top age included.
+# Run 9 Estimated top age included. Outliers now at date #5 and 6.  
+
+Agemodel.stars("1520_MARCA", cc=3) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1546_COR300", cc=3, smooth=0.2)
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included as defined by authors. Smoothness default at 0.3
+# Run 10  Smoothness adjusted to 0.2 to improve fit.
+
+Agemodel.stars("1547_SABCAY", cc=3, smooth=0.2)
+# Run 8 Estimated top age not included.
+# Run 9 Estimated top age from author included. At 15cm sample age = 1141. Smoothness default at 0.3
+# Run 10  Smoothness adjusted to 0.2 to improve fit. Top section seems "forced" towards top age.
+
+Agemodel.stars("1549_PARKER", cc=1, smooth=0.2)
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent. Smoothness default at 0.3
+# Run 10  Smoothness adjusted to 0.2 to improve fit.
+
+Agemodel.stars("1552_BLANPON", cc=3)
+# Only Run 8
+
+Agemodel.stars("1555_URPI2", cc=3)
+# Only Run 8. Unknown top age. Not realistic that surface=recent.
+# Note: Dangerous Extrapolation upward and downward. High age uncertainty.
+
+Agemodel.stars("1557_VARGAS", cc=3, outlier=c(2), hiatus=c(100)) 
+# Run 8 Outlier for date # 1 defined by authors. Hiatus at 100cm. No estimated top age included. Agemodel.stars("1557_VARGAS", cc=3, outlier=c(1), hiatus=c(100)) 
+# Run 9 Estimated top age included. Surface=recent. Outlier now at date # 2. No smooth spline possible (at least 4 dates needed).
+
+Agemodel.stars("1558_WERTH", cc=3, outliers=c(8), smooth=0.2)
+# Run 8 Estimated top age not included. Outlier at date # 7.
+# Run 9 Estimated top age included. Surface=recent. Outlier at date # 8. Smoothness at default 0.3.
+# Run 10  Smoothness adjusted to 0.2 to fit dates better.
+
+Agemodel.stars("1569_ISABEL", cc=1, postbomb=2) 
+# Run 8 Estimated top age not included. Future ages at top due to heavy extrapolation.
+# Run 9 Estimated top age included. Strange top section due to young ages and postbomb.
+
+Agemodel.stars("1579_ACOPAN1", cc=1, postbomb=2)
+# Only Run 8
+
+Agemodel.stars("1580_ACOPAN2", cc=1)
+# Only Run 8
+
+Agemodel.stars("1581_AMUR1", cc=1)
+# Run 8 Estimated top age not included. Future ages at top due to heavy extrapolation.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1582_PATAM9", cc=1, smooth=0.4) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Smoothness at default 0.3. Age reversals at lower section.
+# RUn 10 Smoothness adjusted to 0.4 to remove reversal. However, future ages at the top. Ages more realistic in Run 9.
+
+Agemodel.stars("1585_AUYAN18", cc=1)
+# Run 8 Estimated top age not included. Future ages at top.
+# Run 9 Estimated top age included. Surface=recent.
+# Note: Dangerous extrapolation in lower section. 
+
+Agemodel.stars("1593_BOSOSO", cc=1, outliers=c(4))
+# Only Run 8
+
+Agemodel.stars("1606_CHUCHIM", cc=1, postbomb=2)
+# Run 8 Estimated top age not included. Future ages at top due to heavy extrapolation.
+# Run 9 Estimated top age included. Surface=recent.
+# Note: Young top section with postbomb ages.
+
+Agemodel.stars("1611_PATAM5", cc=1, smooth=0.1) 
+# Run 8 Estimated top age not included. Future ages at top due to extrapolation.
+# Run 9 Estimated top age included. Surface=recent. Smoothness at default value 0.3. Still future ages at top.
+# Run 10  Smoothness adjusted to 0.1 to fit better the ages and avoid future ages at the top.
+
+Agemodel.stars("1613_QUAIQ1", cc=1)
+# Run 8 Estimated top age not included. Future ages at top due to extrapolation.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1614_QUAIQ2", cc=1)
+# Run 8 Estimated top age not included. Future ages at top due to extrapolation.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1615_ARIWE", cc=1, outliers=c(3))
+# Run 8 Estimated top age not included. Outlier at date # 3.
+# Run 9 Estimated top age included. Surface=recent. Outlier at date # 4.
+
+Agemodel.stars("1619_COLON", cc=1)
+# Only Run 8
+
+Agemodel.stars("1629_CULATA", cc=1)
+# Only Run 8
+
+Agemodel.stars("1631_VAL1477", cc=1, outliers=c(6,8))
+# Only Run 8
+
+Agemodel.stars("1633_VAL76V", cc=1, outliers=c(7), smooth=0.23)
+# Run 8 Estimated top age not included. Future ages at top due to extrapolation. Outlier = date #6
+# Run 9 Estimated top age included. Surface=recent. Smoothness at default value 0.3. Outlier = date #7 
+# Run 10 smoothness adjusted to 0.23 to improve fit. 
+
+Agemodel.stars("1636_ANTEOJ", cc=1)
+# Only Run 8
+
+Agemodel.stars("1637_DIVPAST", cc=1, postbomb=2)
+# Only Run 8
+# Note: Careful with downward extrapolation in lowest section. 
+
+Agemodel.stars("1638_ENCANT", cc=1, outliers=c(3,6,7), smooth=0.26) 
+# Run 8 Default smoothness of 0.3. Outliers used as defined by authors.
+# Run 9 Smoothness adjusted to 0.26 to improve fit and avoid age reversal.
+
+Agemodel.stars("1640_MUCUBA", cc=1)
+# Only Run 8
+
+Agemodel.stars("1641_TERESA", cc=1, postbomb=2)
+# Run 8 Estimated top age not included. Future ages at top due to extrapolation.
+# Run 9 Estimated top age included. Surface=recent. Strange top section due to young ages and postbomb. 
+
+Agemodel.stars("1642_VERDALT", cc=1)
+# Run 8 Estimated top age not included. Future ages at top due to extrapolation.
+# Run 9 Estimated top age included. Surface=recent. Extrapolated top age too young (-60) for paper from 2005. 
+# Run 10 Estimated top age adjusted to 10 cal yr BP.
+
+Agemodel.stars("1644_VICTOR", cc=1, smooth=0.3) 
+# Run 8 Estimated top age not included. Extreme extrapolation upward.
+# Run 9 Estimated top age included. Surface=recent. Age reversal and future ages in top section. Smoothness at default value 0.3
+# Run 10 Different smoothness values all cause future ages upward and/or age reversal at top. No feasible age model for smooth spline and estimated top age included.
+
+Agemodel.stars("1646_PATAM1", cc=1)
+# Run 8 Default smoothness of 0.3
+# Run 9 Smoothness adjusted to 0.2 to fit dates better.
+
+Agemodel.stars("1648_VAL76V15", cc=1, smooth=0.4)
+# Run 8 No outliers included
+# Run 9 Optional: Outlier defined at date #7 (reversal with date #6?). Slight reversal in top section.
+# Run 10  Smoothness adjusted to 0.4 and all dates included (no outliers).
+
+Agemodel.stars("1655_MAPIRA1", cc=1)
+# Only Run 8
+
+Agemodel.stars("1657_PACHEC", cc=1)
+# Only Run 8
+
+Agemodel.stars("1663_MIRAND", cc=1)
+# Run 8 Estimated top age not included. Future ages at top due to extrapolation.
+# Run 9 Estimated top age included from authors.
+# Note: Dangerous extrapolation downward. Unreliable ages.
+
+Agemodel.stars("1665_PIEDBLC", cc=1)
+# Only Run 8
+
+Agemodel.stars("1669_MUCUB", cc=1) 
+# Run 8 Estimated top age not included. Extreme extrapolation upward.
+# Run 9 Estimated top age included from authors. 0cm = 10000 yr BP
+
+Agemodel.stars("1679_PARUPA", cc=1)
+# Only Run 8
+# Note: Extreme extrapolation upward. Highly unreliable ages.
+
+Agemodel.stars("1682_TORTEP1", cc=1, postbomb=2)
+# Run 8 Estimated top age not included. Future ages in top sample.
+# Run 9 Estimated top age included. Example used of -20 cal yr BP at 0cm to avoid future ages in top. Exact date not known.
+
+Agemodel.stars("1705_MONIC2", cc=1, outliers=c(2)) 
+# Run 8 Estimated top age not included. Outlier as defined by authors.
+# Run 9 Estimated top age included. Surface=recent. Future ages at top section. 
+
+Agemodel.stars("1706_MONIC3", cc=1, smooth=0.28) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent. Future ages and age at top section. Smoothness at default 0.3.
+# Run 10 All values of smoother spline causes age reversal at top or too young. Estimated top age adjusted to 50 cal yr BP at 0, and smooth 0.28 to avoid age reversal/future ages.
+
+Agemodel.stars("1715_ABRA3", cc=1, smooth=0.51) 
+# Run 8 Linear interpolation: Age reversal at top. Smooth spline: Age reversal in lower part. Smoothness at default 0.3.
+# Run 9 "Stiffer" smoothness at 0.51 to avoid age reversal for smooth spline. However, still age reversal at the top and top sample with future age.
+# Run 10  Outlier = date #2 to avoid age reversal in linear interpolation. Still top age with future age due to extrapolation. 
+# No estimated top age available. Unreliable date for all models.
+
+Agemodel.stars("1716_ABRA107", cc=1, outliers=c(1)) 
+# Only Run 8 
+# Note: Extreme extrapolation to both sides. very high uncertainty! Not reliable ages.
+
+Agemodel.stars("1717_ABRA210E", cc=1, outliers=c(4)) 
+# Only Run 8
+# Note: Big boxes due to very short section.
+
+Agemodel.stars("1740_TOLEDO", cc=1)
+# Run 8 Estimated top age not included. Future ages at top.
+# Run 9 Estimated top age included. Surface=Recent
+# Note: Dangerous extrapolation downward. Unreliable ages.
+
+Agemodel.stars("1744_CARNFOR", cc=1, postbomb=4) 
+# Only Run 8. Unknown top age
+# Note: Very unreliable age model with extreme extrapolation to both sides.
+
+Agemodel.stars("1748_CERCONS", cc=1)
+# Only Run 8
+# Note: The core is short but still dangerous extrapolation to both sides. 
+
+Agemodel.stars("1749_REFUG", cc=1, postbomb=4)
+# Only Run 8. Dangerous extrapolation to future ages. 
+# Note: Very recent date in the middle of the record. Entire upper section is entirely recent (-50 cal yr BP).
+
+Agemodel.stars("1751_DANIEL", cc=1, smooth=0.1) 
+# Run 8 Extreme extrapolation upward to future ages. Control point Pinus not included.
+# Run 9 Control points Pinus & Eucalyptus included. Dangerous extrapolation to top.
+# Run 10 Estimated top age provided by authors included and smoothness of 0.1 used to improve fit. 
+
+Agemodel.stars("1767_LAGVER2", cc=1)
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included
+
+Agemodel.stars("1867_GUANG7", cc=1)
+# Run 8 Estimated top age not included. Future ages at top.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1922_REPOSO", cc=1) 
+# Run 8 Estimated top age not included. Future ages at top.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("1923_MIRLAS4", cc=1, smooth=0.1) 
+# Run 8 Estimated top age not included. Future ages at top.
+# Run 9 Estimated top age included. Surface=recent. Smoothness at default value 0.3.
+# Run 10  Smoothness adjusted to be more flexible at 0.1 to fit better the ages. 
+
+Agemodel.stars("1924_TATAM225", cc=1, smooth=0.1) 
+# Run 8 Estimated top age not included. 
+# Run 9 Estimated top age included. Surface=recent. Smoothness at default value 0.3.
+# Run 10  Smoothness adjusted to be more flexible at 0.1 to fit better the ages. 
+
+Agemodel.stars("1936_BOQUIL2", cc=1, outliers=c(2,3,4,5,6,8,10,12))
+# Only Run 8
+
+Agemodel.stars("1996_CALANC", cc=1) 
+# Only Run 8
+# Note: Dangerous extrapolation downward, even if over little time. Unreliable ages in lower section of age model.
+
+Agemodel.stars("1997_NAVIOQ", cc=1) 
+# Run 8 Estimated top age not included. Future ages at top.
+# Run 9 Estimated top age included. Surface=recent.
+
+Agemodel.stars("2014_TOLITA", cc=3, outliers=c(1,2,3, 4, 8)) 
+# Run 8 Outliers as defined by authors (see both table and greyed out dates in figure). Linear interpolation: Age reversal. Smooth spline: Future ages due to extrapolation.
+# Run 9 Top outlier included to avoid future ages due to extrapolation.
+# Optional: Leave out date # 11 or 12 to avoid age reversal in linear interpolation.
+
+Agemodel.stars("2143_PAPAL08", cc=1)
+# Only Run 8
+
+Agemodel.stars("2222_CRISTAL", cc=1, smooth=0.4) 
+# Run 8 Estimated top age not included. Future ages at top.
+# Run 9 Estimated top age included. Surface=recent. Age reversal. Smoothness at default 0.3.
+# Run 10 Smoothness adjusted to smooth=0.4 to remove reversal and scatter of dates. 
+
+Agemodel.stars("2358_P3OP61", cc=1)
+# Only Run 8
+# Note: Extrapolation to both sides. Unreliable dates.
+
+Agemodel.stars("2359_PII21", cc=1, outliers=c(4))
+# Only Run 8
+# Note: Dangerous extrapolation to both sides. Unreliable dates.
+
+Agemodel.stars("2360_PII45", cc=1)
+# Only Run 8. NO estimated top age.
+# Note: Dangerous extrapolation to both sides. Very unreliable dates.
+
+Agemodel.stars("2361_P3OI40", cc=1, smooth=0.21)
+# Run 8 Estimated top age not included. Future ages at top. Smoothness at default 0.3
+# Run 9 Estimated top age included. Surface=recent. Smoothness adjusted to 0.21 to avoid future ages at top. However still age reversal in lower section. 
+# Run 10 Estimated top age adjusted to -55 14C yr BP to avoid future ages and age reversal.  
+
+Agemodel.stars("2362_P3OI52", cc=1)
+# Only Run 8. Top age unknown.
+# Note: Dangerous extrapolation upward. Unreliable ages.
+
+Agemodel.stars("2370_CAIMANA", cc=1, outliers=c(2,5)) 
+# Only Run 8. Top age unknown.
+# Note: Dangerous extrapolation upward. Unreliable ages.
+
+Agemodel.stars("2377_BELMIRA", cc=1, postbomb=2, smooth=0.4) 
+# Run 8 Estimated top age not included. Future ages upward due to extrapolation. 
+# Run 9 Estimated top age included. Surface=recent. Age reversal in top section. Smoothness at default = 0.3.
+# Run 10 Smoothness adjusted to more rigid smooth spline. However, top section still with either age reversal or future ages. Linear interpolation provide more realistic ages.
+
+Agemodel.stars("2379_PUENT1", cc=1, outliers=c(5), hiatus=c(175))
+# Only Run 8
+
+Agemodel.stars("2387_LLANO1", cc=1s, smooth=0.15)
+# Run 8 Estimated top age not included. Future ages at top. 
+# Run 9 Estimated top age included. Surface=recent. Smoothness at default 0.3. Future ages at top.
+# Run 10 Smoothness adjusted to 0.15 to improve fit and avoid future ages at top.
+
+Agemodel.stars("2388_COCHA3", cc=1)
+# Only Run 8 
+# Note: Dangerous extrapolation downward. Unreliable ages.
+
+Agemodel.stars("2518_LLAM", cc=1, outliers=c(4,5,6,7,8,10,11,12,13,20,37,40,42,47,49), smooth=0.6) 
+# Run 8 Outliers used as defined by authors. Age reversal at 300cm. Smoothness at default 0.3.
+# Run 9 Smoothness more rigid to remove reversal. Adjusted to 0.6
+

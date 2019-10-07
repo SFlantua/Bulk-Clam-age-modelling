@@ -1,0 +1,3 @@
+Depths derived from paper
+
+Paper states: 60 samples in total

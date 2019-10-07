@@ -1,0 +1,6 @@
+ID,C14_age,cal_BP,error,reservoir,depth,thickness,Rcode
+5008,NA,NA,NA,,5,NA,TOP_U
+5009,-8.06,,0.4,,25.5,11,C14
+5010,1450,,60,,48.5,13,C14
+5011,5740,,100,,76,14,C14
+5012,NA,NA,NA,,80,NA,BOT_C

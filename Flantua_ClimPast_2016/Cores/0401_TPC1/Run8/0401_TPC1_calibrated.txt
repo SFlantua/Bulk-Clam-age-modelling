@@ -1,0 +1,153 @@
+Calibrated age ranges at 95% confidence intervals
+
+
+Depth:  5 
+yrmin	yrmax	probability
+551 	669 	95 	
+
+
+Depth:  81 
+yrmin	yrmax	probability
+3401 	3432 	2.9 	
+3441 	3702 	92.1 	
+
+
+Depth:  110.4 
+yrmin	yrmax	probability
+5747 	5833 	42.8 	
+5840 	5945 	48.7 	
+5969 	5986 	3.4 	
+
+
+Depth:  136.5 
+yrmin	yrmax	probability
+6213 	6244 	9.9 	
+6267 	6402 	85.1 	
+
+
+Depth:  150 
+yrmin	yrmax	probability
+6669 	7029 	87.3 	
+7044 	7069 	1.8 	
+7077 	7086 	0.7 	
+7097 	7104 	0.5 	
+7106 	7155 	4.7 	
+
+
+Depth:  162 
+yrmin	yrmax	probability
+6445 	6678 	92.9 	
+6684 	6691 	0.7 	
+6703 	6716 	1.3 	
+
+
+Depth:  196.5 
+yrmin	yrmax	probability
+7939 	8077 	74.3 	
+8081 	8159 	20.7 	
+
+
+Depth:  206.1 
+yrmin	yrmax	probability
+8396 	8563 	92.5 	
+8568 	8580 	2.4 	
+
+
+Depth:  218 
+yrmin	yrmax	probability
+9286 	9518 	95 	
+
+
+Depth:  233 
+yrmin	yrmax	probability
+9598 	9951 	84.9 	
+9990 	10012 	1.5 	
+10025 	10038 	0.8 	
+10061 	10134 	7.8 	
+
+
+Depth:  250 
+yrmin	yrmax	probability
+10291 	10602 	91 	
+10621 	10652 	4 	
+
+
+Depth:  256.5 
+yrmin	yrmax	probability
+11270 	11716 	94.6 	
+11740 	11744 	0.4 	
+
+
+Depth:  276.5 
+yrmin	yrmax	probability
+12056 	12242 	38.9 	
+12253 	12354 	23.7 	
+12356 	12442 	21.6 	
+12471 	12548 	10.9 	
+
+
+Depth:  278 
+yrmin	yrmax	probability
+11849 	11859 	0.4 	
+11947 	12432 	94.2 	
+12500 	12511 	0.4 	
+
+
+Depth:  299.5 
+yrmin	yrmax	probability
+12728 	12994 	95 	
+
+
+Depth:  303 
+yrmin	yrmax	probability
+12706 	12951 	95 	
+
+
+Depth:  314 
+yrmin	yrmax	probability
+12934 	13207 	95 	
+
+
+Depth:  339 
+yrmin	yrmax	probability
+14993 	15460 	95 	
+
+
+Depth:  355.1 
+yrmin	yrmax	probability
+17501 	17887 	95 	
+
+
+Depth:  366 
+yrmin	yrmax	probability
+17184 	17635 	95 	
+
+
+Depth:  378.8 
+yrmin	yrmax	probability
+18726 	19002 	95 	
+
+
+Depth:  436.5 
+yrmin	yrmax	probability
+20253 	21171 	95 	
+
+
+Depth:  516.5 
+yrmin	yrmax	probability
+22392 	23138 	95 	
+
+
+Depth:  680.5 
+yrmin	yrmax	probability
+24561 	25599 	95 	
+
+
+Depth:  682 
+yrmin	yrmax	probability
+25117 	25688 	95 	
+
+
+Depth:  866.5 
+yrmin	yrmax	probability
+27186 	27929 	95 	

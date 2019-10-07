@@ -1,0 +1,187 @@
+Calibrated age ranges at 95% confidence intervals
+
+
+Depth:  0 
+yrmin	yrmax	probability
+-98 	97 	95 	
+
+
+Depth:  20 
+yrmin	yrmax	probability
+9 	44 	14.8 	
+57 	151 	42.3 	
+173 	274 	37.8 	
+
+
+Depth:  51.5 
+yrmin	yrmax	probability
+662 	760 	95 	
+
+
+Depth:  59.5 
+yrmin	yrmax	probability
+1177 	1284 	95 	
+
+
+Depth:  78 
+yrmin	yrmax	probability
+1412 	1549 	95 	
+
+
+Depth:  96 
+yrmin	yrmax	probability
+2334 	2490 	92 	
+2605 	2605 	0.1 	
+2643 	2656 	1.6 	
+2666 	2676 	1.2 	
+
+
+Depth:  141 
+yrmin	yrmax	probability
+3460 	3641 	93.1 	
+3670 	3679 	1.7 	
+
+
+Depth:  143.5 
+yrmin	yrmax	probability
+3478 	3642 	91.8 	
+3668 	3682 	3.2 	
+
+
+Depth:  176.5 
+yrmin	yrmax	probability
+3846 	3998 	83.3 	
+4036 	4079 	11.7 	
+
+
+Depth:  212.5 
+yrmin	yrmax	probability
+4419 	4580 	93.2 	
+4605 	4605 	0.1 	
+4770 	4780 	1.6 	
+
+
+Depth:  229 
+yrmin	yrmax	probability
+4526 	4729 	68.9 	
+4736 	4742 	1.1 	
+4749 	4820 	24.9 	
+
+
+Depth:  231.5 
+yrmin	yrmax	probability
+4161 	4168 	1 	
+4180 	4199 	3 	
+4228 	4422 	91 	
+
+
+Depth:  301.5 
+yrmin	yrmax	probability
+4185 	4195 	0.9 	
+4234 	4438 	93.3 	
+4489 	4497 	0.7 	
+
+
+Depth:  381.5 
+yrmin	yrmax	probability
+5913 	6028 	73 	
+6044 	6068 	3.9 	
+6076 	6118 	11.6 	
+6150 	6176 	6.5 	
+
+
+Depth:  461.5 
+yrmin	yrmax	probability
+6941 	7178 	91.7 	
+7200 	7209 	0.8 	
+7211 	7238 	2.5 	
+
+
+Depth:  541.5 
+yrmin	yrmax	probability
+7583 	7759 	94.4 	
+7778 	7781 	0.5 	
+
+
+Depth:  621.5 
+yrmin	yrmax	probability
+8421 	8591 	95 	
+
+
+Depth:  701.5 
+yrmin	yrmax	probability
+9095 	9095 	0.1 	
+9123 	9434 	94.9 	
+
+
+Depth:  753 
+yrmin	yrmax	probability
+9798 	9801 	0.2 	
+9820 	9840 	1 	
+9870 	9871 	0.1 	
+9887 	10203 	93.7 	
+
+
+Depth:  867 
+yrmin	yrmax	probability
+11361 	11372 	0.6 	
+11392 	11833 	88.9 	
+11873 	11957 	5.5 	
+
+
+Depth:  873 
+yrmin	yrmax	probability
+11504 	11523 	1 	
+11607 	12044 	93.9 	
+
+
+Depth:  875 
+yrmin	yrmax	probability
+11818 	12243 	84.1 	
+12269 	12381 	10.8 	
+
+
+Depth:  975 
+yrmin	yrmax	probability
+13447 	13732 	95 	
+
+
+Depth:  995 
+yrmin	yrmax	probability
+13611 	13679 	4.2 	
+13701 	14044 	90.8 	
+
+
+Depth:  1047 
+yrmin	yrmax	probability
+12819 	13092 	95 	
+
+
+Depth:  1132 
+yrmin	yrmax	probability
+13562 	14049 	95 	
+
+
+Depth:  1195.5 
+yrmin	yrmax	probability
+16487 	17027 	95 	
+
+
+Depth:  1213 
+yrmin	yrmax	probability
+16098 	16697 	95 	
+
+
+Depth:  1238 
+yrmin	yrmax	probability
+17031 	17565 	95 	
+
+
+Depth:  1241.5 
+yrmin	yrmax	probability
+16608 	17156 	95 	
+
+
+Depth:  1270 
+yrmin	yrmax	probability
+17023 	17488 	95 	

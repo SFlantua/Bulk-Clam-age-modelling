@@ -1,0 +1,38 @@
+Calibrated age ranges at 95% confidence intervals
+
+
+Depth:  126 
+yrmin	yrmax	probability
+790 	937 	93.3 	
+945 	954 	1.6 	
+
+
+Depth:  195 
+yrmin	yrmax	probability
+1306 	1483 	94.6 	
+1503 	1505 	0.4 	
+
+
+Depth:  215 
+yrmin	yrmax	probability
+1431 	1443 	1.9 	
+1451 	1622 	80.7 	
+1651 	1699 	12.3 	
+
+
+Depth:  240 
+yrmin	yrmax	probability
+1839 	1853 	3.4 	
+1868 	2006 	91.5 	
+
+
+Depth:  255 
+yrmin	yrmax	probability
+1916 	2095 	94.5 	
+2137 	2140 	0.4 	
+
+
+Depth:  260 
+yrmin	yrmax	probability
+2118 	2121 	0.3 	
+2148 	2354 	94.6 	

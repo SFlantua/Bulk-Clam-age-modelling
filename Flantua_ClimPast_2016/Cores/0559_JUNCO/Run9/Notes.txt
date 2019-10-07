@@ -1,0 +1,3 @@
+core shorter than 14C dates
+
+Extra depths added at beginning and end

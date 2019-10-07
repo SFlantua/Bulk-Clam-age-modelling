@@ -1,0 +1,32 @@
+ID,C14_age,cal_BP,error,reservoir,depth,thickness,RCode,Note
+5866,,0,50,,0,1,C14,TOP_C
+5867,130,,30,,20,1,C14,Llano grande 2
+5868,770,,40,,51.5,1.5,C14,Llano grande 5
+5869,1280,,30,,59.5,1.5,C14,Llano grande 2
+5870,1600,,30,,78,2,C14,Llano grande 2
+5871,2370,,35,,96,2,C14,Llano grande 2
+5872,3330,,40,,141,2,C14,Llano grande 5
+5873,3340,,35,,143.5,4.5,C14,Llano grande 2
+5874,3630,,35,,176.5,1.5,C14,Llano grande 2
+5875,4030,,35,,212.5,1.5,C14,Llano grande 2
+5876,4120,,40,,229,1,C14,Llano grande 2
+5877,3890,,40,,231.5,1.5,C14,Llano grande 5
+5878,3910,,40,,301.5,1.5,C14,Llano grande 5
+5879,5230,,40,,381.5,1.5,C14,Llano grande 5
+5880,6170,,50,,461.5,1.5,C14,Llano grande 5
+5881,6830,,50,,541.5,1.5,C14,Llano grande 5
+5882,7730,,50,,621.5,1.5,C14,Llano grande 5
+5883,8280,,50,,701.5,1.5,C14,Llano grande 5
+5884,8910,,50,,753,1,C14,Llano grande 5
+5885,10080,,50,,867,1,C14,Llano grande 5
+5886,10150,,50,,873,1,C14,Llano grande 5
+5887,10280,,60,,875,1,C14,Llano grande 3
+5888,11740,,70,,975,1,C14,Llano grande 3
+5889,11980,,70,,995,1,C14,Llano grande 3
+5890,11120,,60,,1047,1,C14,Llano grande 5
+5891,11950,,100,,1132,2,C14,Llano grande 8
+5892,13850,,70,,1195.5,1.5,C14,Llano grande 5
+5893,13590,,90,,1213,1,C14,Llano grande 4
+5894,14210,,90,,1238,1,C14,Llano grande 4
+5895,13940,,70,,1241.5,1.5,C14,Llano grande 8
+5896,14170,,70,,1270,4,C14,Llano grande 8

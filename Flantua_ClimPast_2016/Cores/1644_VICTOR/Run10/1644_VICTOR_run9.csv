@@ -1,0 +1,5 @@
+ID,C14_age,cal_BP,error,reservoir,depth,thickness,RCode
+5108,,0,50,,0,,TOP_C
+5107,3400,,65,,195,5,C14
+5108,11810,,90,,250,5,C14
+5109,12110,,10,,279,7,C14

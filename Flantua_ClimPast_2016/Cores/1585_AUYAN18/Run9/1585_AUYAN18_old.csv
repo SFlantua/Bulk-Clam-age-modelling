@@ -1,0 +1,4 @@
+"ID","C14_age","cal_BP","error","reservoir","depth","thickness","Rcode"
+5000,2900,"",70,"",67.5,5,"C14"
+5001,3880,"",80,"",87.5,5,"C14"
+5002,4400,NA,NA,"",NA,NA,"BOT_C"

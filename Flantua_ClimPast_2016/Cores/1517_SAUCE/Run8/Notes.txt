@@ -1,0 +1,3 @@
+No details on cm in paper
+
+Depths files created for 20cm based on number of samples mentioned (n=96)
